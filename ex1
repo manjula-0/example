@@ -1,0 +1,10 @@
+count = 0
+
+my_string =str(input("enter the name "))
+my_char = str(input("enter the word "))
+
+for i in my_string:
+    if i == my_char:
+        count += 1
+
+print(count)
